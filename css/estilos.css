@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(/img/fondo.jpg);    
+    
+}
+
+.header{
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: aliceblue;
+    
+}
+
+.header img {
+    height: 50px;
+}
+
+.slogan {
+    background-color: rgba(212, 244, 219, 0.7);
+}
+
+.social{
+    background-color: aliceblue;
+}
+
+.social i {
+    font-size: 60px;
+    color: darkgreen;
+    padding:  30px 15px;
+}
+
+.photos img:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 2px black;
+    
+}
+
+.card {
+    padding: 20px;
+}
+
+.articulos img{
+    height: 200px;
+    margin: 20px
+}
+
+.autor img{
+    height: 150px;
+}
